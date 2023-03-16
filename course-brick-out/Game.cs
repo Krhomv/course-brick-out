@@ -15,12 +15,15 @@ namespace course_brick_out
             Console.WriteLine("Init");
         }
 
+        public bool ShouldTerminate()
+        {
+            return Keyboard.IsKeyDown(Key.Escape);
+        }
+
         // Returns whether the game loop should continue.
-        public bool Update()
+        public void Update()
         {
             Console.WriteLine("Update");
-
-            return !Keyboard.IsKeyDown(Key.Escape);
         }
 
         public void Render()
