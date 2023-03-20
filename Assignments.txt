@@ -1,0 +1,13 @@
+		
+	1. Positionner (set position) Boucle qui print un = Width fois 
+	2. Créer une String de width String (caractère, nb fois)
+
+
+	Finir raquete
+	Créer balle
+	Créer une brique
+	class m_bar.render
+	class m_ball.render
+	
+	Classe > field > properties > constructors
+					

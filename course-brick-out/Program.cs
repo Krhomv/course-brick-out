@@ -11,7 +11,7 @@ namespace course_brick_out // Note: actual namespace depends on the project name
             game.Init();
 
             var stopwatch = new Stopwatch();
-            double targetFrameTime = 1.0 / 60.0; // 60 FPS
+            double targetFrameTime = 1.0 / 4.0; // 60 FPS
 
             while (!game.ShouldTerminate())
             {
